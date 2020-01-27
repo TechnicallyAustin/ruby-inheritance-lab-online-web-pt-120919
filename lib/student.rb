@@ -1,14 +1,14 @@
 class Student < User
   def initialize
-    KNOWLEDGE = []
+    knowledge = []
   end
   
   def learn(string_of_know)
-    KNOWLEDGE << string_of_know
+    knowledge << string_of_know
   end
   
   def knowledge 
-    KNOWLEDGE
+    knowledge
   end
 
 
